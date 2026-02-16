@@ -40,3 +40,13 @@
   },
   "backup": {}
 }
+---------
+    },
+    "base": {
+      "portAddr": "0x1234567890abcdef1234567890abcdef12345678",
+      "channelId": "channel-y",
+      "timeout": 36000
+    }
+  },
+  "backup": {}
+}

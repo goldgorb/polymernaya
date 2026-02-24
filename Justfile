@@ -95,3 +95,11 @@ clean-all:
     rm -rf artifacts cache
     forge clean
     rm -rf node_modules
+-----------
+# Fully clean the environment by removing the artifacts, the dependencies, and cache folders and running the forge clean-all command
+# Usage: just clean-all
+clean-all:
+    echo "Cleaning up environment..."
+    rm -rf artifacts cache
+    forge clean
+    rm -rf node_modules
